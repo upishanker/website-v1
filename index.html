@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Upi's Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Upi Shanker</h1>
+        <h2>Computer Science Student</h2>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#education">Education</a>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I'm Upi Shanker, a Computer Science honors student at Florida State University with a passion for building scalable, user-centered software. I specialize in full-stack development, AI automation, and data analytics, and have applied these skills through internships and research at organizations like St. Jude Children's Research Hospital, Voxel Labs, and the DeVoe L. Moore Center. Whether I'm building interactive data visualizations, deploying secure AWS-hosted web apps, or training AI models for real-world document processing, I focus on writing clean, impactful code. I'm also deeply involved in the tech community as VP & Website Coordinator of the Computational Neuroscience Society, Webmaster for ACM at FSU, and Outreach Chair for AITP. My goal is to continue growing as a developer and contribute to meaningful, mission-driven projects.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="icons">
+            <img src="assets/icons/Python-Dark.svg" alt="Python" title="Python">
+            <img src="assets/icons/JavaScript.svg" alt="JavaScript" title="JavaScript">
+            <img src="assets/icons/TypeScript.svg" alt="TypeScript" title="TypeScript">
+            <img src="assets/icons/Java-Dark.svg" alt="Java" title="Java">
+            <img src="assets/icons/C.svg" alt="C" title="C">
+            <img src="assets/icons/CPP.svg" alt="C++" title="C++">
+            <img src="assets/icons/HTML.svg" alt="HTML" title="HTML">
+            <img src="assets/icons/CSS.svg" alt="CSS" title="CSS">
+            <img src="assets/icons/React-Dark.svg" alt="React" title="React">
+            <img src="assets/icons/NextJS-Dark.svg" alt="NextJS" title="NextJS">
+            <img src="assets/icons/ThreeJS-Dark.svg" alt="ThreeJS" title="ThreeJS">
+            <img src="assets/icons/Figma-Dark.svg" alt="Figma" title="Figma">
+            <img src="assets/icons/Flask-Dark.svg" alt="Flask" title="Flask">
+            <img src="assets/icons/Spring-Dark.svg" alt="Spring" title="Spring">
+            <img src="assets/icons/AWS-Dark.svg" alt="AWS" title="AWS">
+            <img src="assets/icons/SQLite.svg" alt="SQLite" title="SQLite">
+            <img src="assets/icons/PostgreSQL-Dark.svg" alt="PostgreSQL" title="PostgreSQL">
+            <img src="assets/icons/data-structures.svg" alt="Data Structures" title="Data Structures">
+            <img src="assets/icons/oop.svg" alt="Object -Oriented Programming" title="Object -Oriented Programming">
+            <img src="assets/icons/rest-api.svg" alt="Rest API" title="Rest API">
+            <img src="assets/icons/Pandas.svg" alt="Pandas" title="Pandas">
+            <img src="assets/icons/NumPy.svg" alt="NumPy" title="NumPy">
+            <img src="assets/icons/Seaborn.svg" alt="Seaborn" title="Seaborn">
+            <img src="assets/icons/Matplotlib.svg" alt="Matplotlib" title="Matplotlib">
+            <img src="assets/icons/eda.svg" alt="Exploratory Data Analysis" title="Exploratory Data Analysis">
+            <img src="assets/icons/nlp.svg" alt="Natural Language Processing" title="NLP">
+            <img src="assets/icons/llm.svg" alt="Large Language Models" title="Large Language Models">
+            <img src="assets/icons/prompt.svg" alt="Prompt Engineering" title="Prompt Engineering">
+            <img src="assets/icons/data-labeling.svg" alt="Data Labeling" title="Data Labeling">
+            <img src="assets/icons/Git.svg" alt="Git" title="Git">
+            <img src="assets/icons/Github-Dark.svg" alt="Github" title="Github">
+            <img src="assets/icons/Postman.svg" alt="Postman" title="Postman">
+            <img src="assets/icons/documentation.svg" alt="Documentation" title="Documentation">
+            <img src="assets/icons/teamwork.svg" alt="Teamwork" title="Teamwork">
+            <img src="assets/icons/communication.svg" alt="Communication" title="Communication">
+            <img src="assets/icons/research.svg" alt="Research" title="Research">
+            <img src="assets/icons/problem-solving.svg" alt="Problem Solving" title="Problem Solving">
+        </div>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <div>
+            <h3>Florida State University</h3>
+            <h4>Bachelor of Science in Computer Science, Minor in Mathematics</h4>
+            <p>Activities and Societies: University Honors Program, University Research Opportunity Program, ACM at FSU (Webmaster), South Asian Student Association, CompNeuroSociety (Vice President & Website Coordinator), AITP (Outreach Chair), Codeeducation</p>
+            <p>Honors & Awards: Dean's List, Vires Scholarship</p>
+        </div>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+        <div class="experience-container">
+            <button class="experience-button" data-id="stjude" onclick="show(this)" style="background-color:#C10F3A">
+                <i>Analytic Services Intern</i>
+                <b>St. Jude Children's Research Hospital</b>
+                <i>May 2025 - Present</i>
+            </button>
+            <div class="experience-box" id="stjude">St Jude Children's Research Hospital</div>
+        </div>
+        <div class="experience-container">
+            <button class="experience-button" data-id="voxel" onclick="show(this)">
+                <i>Front-End Web Developer</i>
+                <b>Voxel Labs, LLC</b>
+                <i>February 2025 - Present</i>
+            </button>
+            <div class="experience-box" id="voxel">
+                <ul>
+                    <li>Designed and developed a responsive, user-friendly website using HTML, CSS, and JavaScript, ensuring seamless navigation across devices and optimizing components for maintainability and consistent branding.</li>
+                    <li>Integrated interactive elements such as form validation and real-time updates using JavaScript, enhancing functionality and user experience.</li>
+                    <li>Deployed and secured the website with AWS services, leveraging S3 for hosting, Route 53 for DNS management, CloudFront for CDN, AWS Certificate Manager for SSL encryption, and integrated API Gateway with Lambda for backend functionality, ensuring high availability, performance, and security.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="experience-container">
+            <button class="experience-button" data-id="commercehive" onclick="show(this)" style="background-color:#DEB827">
+                <i>Software Engineer Intern</i>
+                <b>Commerce Hive LLC</b>
+                <i>February 2025 - Present</i>
+            </button>
+            <div class="experience-box" id="commercehive">Commerce Hive</div>
+        </div>
+        <div class="experience-container">
+            <button class="experience-button" data-id="devoe" onclick="show(this)" style="background-color:#782F40">
+                <i>Data Analytics Intern</i>
+                <b>The DeVoe L. Moore Center</b>
+                <i>January 2025 - Present</i>
+            </button>
+            <div class="experience-box" id="devoe">
+                <ul>
+                    <li>Developed and published 5+ interactive Tableau dashboards focused on public finance and economic data </li>
+                    <li>Cleaned and structured datasets from 10+ state and local agencies, increasing data accuracy by 30%</li>
+                    <li>Collaborated cross-functionally with research teams and senior leadership to align dashboards with policy goals</li>
+                </ul>
+            </div>
+        </div>
+        <div class="experience-container">
+            <button class="experience-button" data-id="research" onclick="show(this)" style="background-color:#782F40">
+                <i>Research Assistant</i>
+                <b>Florida State University</b>
+                <i>October 2024 - Present</i>
+            </button>
+            <div class="experience-box" id="research">
+                <ul>
+                    <li>Developed a Python script to categorize duplicate titles in a SQLite database, reducing manual data entry by 75%</li>
+                    <li>Created a SQLite database using Natural Language Processing (NLP) and TF-IDF vectorization to automatically analyze and score academic papers</li>
+                    <li>Developed and deployed a Flask-based web application to queries the academic scores database </li>
+                </ul>
+            </div>
+        </div>
+        <div class="experience-container">
+            <button class="experience-button" data-id="outamation" onclick="show(this)" style="background-color:#3366CC">
+                <i>AI Automation Extern</i>
+                <b>Outamation</b>
+                <i>March 2025 - Present</i>
+            </button>
+            <div class="experience-box" id="outamation">
+                <ul>
+                    <li>Building AI-driven document processing workflows using Python, NLP, and computer vision to extract and analyze unstructured data in finance and real estate.</li>
+                    <li>Implementing and evaluating AI models (LlamaIndex, DocLLM) for document classification and data extraction to optimize automation efficiency.</li>
+                    <li>Designing AI-powered automation pipelines, streamlining data workflows, and developing analytical insights to enhance business processes.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="experience-container">
+            <button class="experience-button" data-id="outlier" onclick="show(this)" style="background-color:#5BC8DD">
+                <i>AI Trainer</i>
+                <b>Outlier</b>
+                <i>October 2024 - Present</i>
+            </button>
+            <div class="experience-box" id="outlier">
+                <ul>
+                    <li>Improved AI performance and accuracy by designing effective prompts and refining responses generated by LLMs</li>
+                    <li>Conducted iterative testing and fine-tuning of LLM outputs by evaluating relevance, factual accuracy, and tone</li>
+                    <li>Collaborated with cross-functional teams to structure RAG pipelines to boost response precision by 29% </li>
+                </ul>
+            </div>
+        </div>
+        <div class="experience-container">
+            <button class="experience-button" data-id="alignerr" onclick="show(this)">
+                <i>AI Trainer</i>
+                <b>Alignerr</b>
+                <i>October 2024 - March 2025</i>
+            </button>
+            <div class="experience-box" id="alignerr">
+                <ul>
+                    <li>Annotated and labeled video datasets to train and enhance the performance of Artificial Intelligence models</li>
+                    <li>Developed and optimized high-quality code to implement machine learning models, ensuring scalability</li>
+                    <li>Refined prompt strategies and retrieval mechanisms to improve chatbot response accuracy by 37% in LLM + RAG pipelines</li>
+                </ul>
+            </div>
+        </div>
+        <div class="experience-container">
+            <button class="experience-button" data-id="beats" onclick="show(this)" style="background-color:#e01f3d">
+                <i>Data Analytics Extern</i>
+                <b>Beats by Dre</b>
+                <i>November 2024 - February 2025</i>
+            </button>
+            <div class="experience-box" id="beats">
+                <ul>
+                    <li>Developed and automated data pipelines for gathering, cleaning, and analyzing large consumer datasets using Python, improving data processing efficiency and accuracy</li>
+                    <li>Conducted exploratory data analysis (EDA) and sentiment analysis on customer reviews, leveraging Python libraries like Pandas and NumPy to uncover actionable insights and inform business strategies</li>
+                    <li>Created and delivered data-driven presentations and interactive dashboards, effectively communicating complex insights to stakeholders and supporting strategic decision-making</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <div class="project" id="gradehub">
+                <h3>Gradehub</h3>
+                <h3><a href="https://github.com/upishanker/GradeHub" target="_blank">GitHub</a></h3>
+                <ul>
+                    <li>Developing an application for grade management using PostgreSQL and Spring Boot (Java) for the backend </li>
+                    <li>Designed and implemented RESTful APIs to support user authentication and course management</li>
+                    <li>Currently building an interactive, responsive frontend with Next.js, enabling seamless user experiences </li>
+                </ul>
+                <div class="project-skills">
+                    <span>Java</span>
+                    <span>PostgreSQL</span>
+                    <span>Java</span>
+                    <span>Java</span>
+                </div>
+            </div>
+            <div class="project"></div>
+            <div class="project"></div>
+
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>...</p>
+    </section>
+
+    <footer>
+        <p>Copyright Upi Shanker | upishanker@gmail.com</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
