@@ -8,7 +8,7 @@ html, body {
 }
 body {
     background: #232526;
-    background: linear-gradient(180deg, rgba(35, 37, 38, 1) 0%, rgba(65, 67, 69, 1) 100%);
+    background: linear-gradient(180deg, #0f0c29, #302b63, #24243e);
 }
 header {
     text-align: center;
@@ -115,14 +115,69 @@ a {
 }
 .project-skills {
     margin-top: 2rem;
-    margin-left: 1.5rem;
+    margin-left: 2rem;
 }
 .project-skills span {
     width: 10rem;
-    border:  black 1px solid;
     border-radius: 1rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    padding-right: 1rem;
-    padding-left: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: cadetblue;
+}
+#contact {
+    text-align: center;
+    padding: 2rem 1rem;
+    background: rgba(0, 0, 0, 0.4);
+    margin-top: 2rem;
+}
+
+.contact-container {
+    width: 75%;
+    margin: 0 auto;
+}
+
+#contact ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 1rem;
+}
+
+#contact li {
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+}
+
+#contact a {
+    color: #CEB888;
+    transition: color 0.3s ease;
+}
+
+#contact a:hover {
+    color: #FFD700;
+    text-decoration: underline;
+}
+footer {
+    text-align: center;
+}
+@media only screen and (max-width: 600px) {
+    .projects-container {
+        grid-template-columns: 1fr;
+    }
+    .project {
+        height: auto; /* allow height to expand if needed */
+        padding: 1rem;
+    }
+
+    .project-skills {
+        margin-top: 1rem;
+        margin-left: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.5rem;
+    }
+
+    .project-skills span {
+        font-size: 0.85rem;
+        text-align: center;
+    }
 }
